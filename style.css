@@ -11,6 +11,13 @@
     box-sizing: border-box;
 }
 
+/* section-title class styling */
+.section-title {
+    font-weight: normal;
+    font-style: italic;
+    text-align: center;
+}
+
 /*header styling begins*/
 
 header {
@@ -46,8 +53,8 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: lighter;
     font-size: 1.5vw;
+    font-weight: lighter;
 }
 
 header nav ul li a:hover {
@@ -55,6 +62,22 @@ header nav ul li a:hover {
     color: var(--font-color);
     border-radius: 15px;
     border: 1px solid var(--font-color);
+}
+/*header styling ends here*/
+/*initial thanks section styling starts here*/
+
+.initial-thanks h2 {
+    border-bottom: 3px solid var(--secondary-color);
+    margin: 0 auto 30px auto;
+    width: 50%;
+    padding: 15px;
+}
+
+
+/*initial thanks section styling ends*/
+/*about me section styling begins*/
+.introduction {
+    background: var(--secondary-color);
 }
 
 footer {
