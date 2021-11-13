@@ -66,6 +66,13 @@ header nav ul li a:hover {
 /*header styling ends here*/
 /*initial thanks section styling starts here*/
 
+.initial-thanks {
+    background-image: url(./Images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-position: center;
+    padding: 20px 35px;
+
+}
+
 .initial-thanks h2 {
     border-bottom: 3px solid var(--secondary-color);
     margin: 0 auto 30px auto;
@@ -73,12 +80,43 @@ header nav ul li a:hover {
     padding: 15px;
 }
 
-
 /*initial thanks section styling ends*/
 /*about me section styling begins*/
 .introduction {
     background: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.introduction h2 {
+    border-bottom: 3px solid var(--font-color);
+    margin: 0 auto 30px auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.introduction p {
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 70px;
+    float: left;
+    width: 60%;
+
+}
+
+.intro-img img {
+    width: 20%;
+    align-items: flex-end;
+    float: right;
+    margin-right: 110px;
+    margin-bottom: 30px;
+    margin-left: 0;
+}
+
+
+/*about me section styling ends*/
+
 
 footer {
     background-color: var(--primary-color);
