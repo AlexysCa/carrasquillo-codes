@@ -69,7 +69,8 @@ header nav ul li a:hover {
 .initial-thanks {
     background-image: url(./Images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
     background-position: center;
-    padding: 20px 35px;
+    padding: 20px;
+    margin: 20px;
 
 }
 
@@ -116,15 +117,22 @@ header nav ul li a:hover {
 
 /*about me section styling ends*/
 /*styling for my work section begins*/
+
+.my-work-section{
+    margin: 20px;
+}
+
 .work-samples{
-    margin-bottom: 30px;
-    padding: 20px 35px;
+    margin-bottom: 35mm;
+    padding: 40px 35px;
+    background: white;
 }
 
 .work-samples h2 {
     border-bottom: 3px solid var(--secondary-color);
     margin: 0 auto 30px auto;
     width: 50%;
+
 }
 
 
@@ -134,12 +142,12 @@ header nav ul li a:hover {
 
 .run-buddy-title {
     background: var(--secondary-color);
-    width: 50%;
+    width: 20%;
     margin: 0 auto 30px auto;
 }
 
 .run-buddy img {
-    width: 50%;
+    width: 30%;
     border: 3px solid var(--secondary-color);
 }
 
@@ -149,7 +157,7 @@ header nav ul li a:hover {
 }
 
 .horiseon img {
-    width: 40%;
+    width: 20%;
     border: var(--secondary-color) 3px solid;
 }
 
@@ -160,7 +168,7 @@ header nav ul li a:hover {
 
 .upcoming-project img {
     float: right;
-    width: 40%;
+    width: 20%;
     border: var(--secondary-color) 3px solid;
     position: absolute;
     right: 30px;
@@ -169,7 +177,27 @@ header nav ul li a:hover {
 .upcoming-title {
     float: right;
 }
+/* styling ends for my work section*/
+/*contact section styling*/
 
+.contact {
+    background-image: url(./Images/jean-philippe-delberghe-75xPHEQBmvA-unsplash.jpg);
+    background-position: center;
+    padding: 25px;
+    margin: 20px;
+}
+
+.contact h2 {
+    border-bottom: 3px solid var(--secondary-color);
+    margin: 0 auto 30px auto;
+    width: 50%;
+    padding: 15px;
+}
+
+.contact p {
+    text-align: center;
+    font-weight: bold;
+}
 
 footer {
     background-color: var(--primary-color);
