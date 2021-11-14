@@ -190,3 +190,13 @@ footer h3 {
     color: var(--font-color);
     width: 100%;
 }
+
+/*media query for smaller desktop screens*/
+@media screen and (max-width: 980px) {
+    header nav ul li a {
+        font-size: 2.5vw;
+    }
+    .intro-img {
+        width: 110%;
+        margin-right: 150px;
+    }
