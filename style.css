@@ -114,8 +114,61 @@ header nav ul li a:hover {
     margin-left: 0;
 }
 
-
 /*about me section styling ends*/
+/*styling for my work section begins*/
+.work-samples{
+    margin-bottom: 30px;
+    padding: 20px 35px;
+}
+
+.work-samples h2 {
+    border-bottom: 3px solid var(--secondary-color);
+    margin: 0 auto 30px auto;
+    width: 50%;
+}
+
+
+.run-buddy {
+    text-align: center;
+}
+
+.run-buddy-title {
+    background: var(--secondary-color);
+    width: 50%;
+    margin: 0 auto 30px auto;
+}
+
+.run-buddy img {
+    width: 50%;
+    border: 3px solid var(--secondary-color);
+}
+
+.horiseon {
+    float: left;
+    position: relative;
+}
+
+.horiseon img {
+    width: 40%;
+    border: var(--secondary-color) 3px solid;
+}
+
+.horiseon-title {
+    background: var(--secondary-color);
+    width: 40%;
+}
+
+.upcoming-project img {
+    float: right;
+    width: 40%;
+    border: var(--secondary-color) 3px solid;
+    position: absolute;
+    right: 30px;
+}
+
+.upcoming-title {
+    float: right;
+}
 
 
 footer {
