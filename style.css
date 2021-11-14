@@ -106,7 +106,7 @@ header nav ul li a:hover {
 }
 
 .intro-img img {
-    width: 11%;
+    width: 15%;
     align-items: flex-end;
     float: right;
     margin-right: 110px;
@@ -135,8 +135,28 @@ header nav ul li a:hover {
     width: 40%;
 }
 
+.run-buddy h3 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
 .smaller-samples img {
     border: solid 3px var(--secondary-color);
+}
+
+.horiseon-title {
+    float: left;
+    margin-right: 15%;
+    margin-left: 90px;
+    color: var(--primary-color);
+
+}
+
+.upcoming {
+    float: left;
+    margin-right: 20px;
+    margin-left: 450px;
+    color: var(--primary-color);
 }
 
 
