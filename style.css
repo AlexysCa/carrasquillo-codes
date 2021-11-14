@@ -117,7 +117,7 @@ header nav ul li a:hover {
 /*about me section styling ends*/
 /*styling for my work section begins*/
 .work-samples {
-    margin-bottom: 85mm;
+    margin-bottom: 30px;
 }
 
 .work-samples h2{
@@ -138,27 +138,42 @@ header nav ul li a:hover {
 .run-buddy h3 {
     text-align: center;
     color: var(--primary-color);
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 5px;
 }
 
-.smaller-samples img {
-    border: solid 3px var(--secondary-color);
+.horiseon img {
+    border: var(--secondary-color) solid 3px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
 
-.horiseon-title {
-    float: left;
-    margin-right: 15%;
-    margin-left: 90px;
+.horiseon h3 {
+    text-align: center;
     color: var(--primary-color);
-
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 5px;
 }
 
-.upcoming {
-    float: left;
-    margin-right: 20px;
-    margin-left: 450px;
+.upcoming-proj img {
+    border: var(--secondary-color) solid 3px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+}
+
+.upcoming-proj h3 {
+    text-align: center;
     color: var(--primary-color);
+    font-weight: lighter;
+    font-style: italic;
+    padding-bottom: 5px;
 }
-
 
 /* styling ends for my work section*/
 /*contact section styling*/
@@ -190,13 +205,61 @@ footer h3 {
     color: var(--font-color);
     width: 100%;
 }
+/* contact section styling ends*/
 
 /*media query for smaller desktop screens*/
 @media screen and (max-width: 980px) {
+
     header nav ul li a {
         font-size: 2.5vw;
     }
-    .intro-img {
-        width: 110%;
-        margin-right: 150px;
+
+    .introduction p {
+        padding-top: 0;
     }
+
+    .intro-img img {
+        width: 20%;
+    }
+
+    .run-buddy h3 {
+        padding-bottom: 10px;
+        font-size: small;
+    }
+
+    .horiseon h3 {
+        padding-bottom: 10px;
+        font-size: small;
+    }
+
+    .upcoming-proj {
+        font-size: small;
+    }
+
+    .contact p {
+       font-weight: normal;
+    }
+}
+
+/* tabets media query*/
+@media screen and (max-width: 768px) {
+   .section-title {
+    font-weight: normal;
+   }
+
+   .intro-img img {
+    width: 240px;
+    margin-right: 25px;
+   }
+}
+
+/*media query for mobile screens or smaller*/
+@media screen and (max-width: 575px) {
+    .intro-img img {
+        margin-top: 40px;
+    }
+    .contact p {
+       font-weight: normal;
+    }
+}
+
