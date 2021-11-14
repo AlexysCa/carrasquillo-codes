@@ -2,7 +2,6 @@
     --primary-color: #9360f7;
     --secondary-color: #c0a1ff;
     --font-color: white;
-    
 }
 
 * {
@@ -97,7 +96,7 @@ header nav ul li a:hover {
 }
 
 .introduction p {
-    text-align: left;
+    text-align: center;
     padding: 10px;
     margin: 10px;
     margin-left: 70px;
@@ -107,7 +106,7 @@ header nav ul li a:hover {
 }
 
 .intro-img img {
-    width: 20%;
+    width: 11%;
     align-items: flex-end;
     float: right;
     margin-right: 110px;
@@ -117,66 +116,30 @@ header nav ul li a:hover {
 
 /*about me section styling ends*/
 /*styling for my work section begins*/
-
-.my-work-section{
-    margin: 20px;
+.work-samples {
+    margin-bottom: 85mm;
 }
 
-.work-samples{
-    margin-bottom: 35mm;
-    padding: 40px 35px;
-    background: white;
-}
-
-.work-samples h2 {
+.work-samples h2{
     border-bottom: 3px solid var(--secondary-color);
     margin: 0 auto 30px auto;
     width: 50%;
-
-}
-
-
-.run-buddy {
-    text-align: center;
-}
-
-.run-buddy-title {
-    background: var(--secondary-color);
-    width: 20%;
-    margin: 0 auto 30px auto;
+    padding: 15px;
 }
 
 .run-buddy img {
-    width: 30%;
-    border: 3px solid var(--secondary-color);
-}
-
-.horiseon {
-    float: left;
-    position: relative;
-}
-
-.horiseon img {
-    width: 20%;
-    border: var(--secondary-color) 3px solid;
-}
-
-.horiseon-title {
-    background: var(--secondary-color);
+    border: var(--secondary-color) solid 3px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 40%;
 }
 
-.upcoming-project img {
-    float: right;
-    width: 20%;
-    border: var(--secondary-color) 3px solid;
-    position: absolute;
-    right: 30px;
+.smaller-samples img {
+    border: solid 3px var(--secondary-color);
 }
 
-.upcoming-title {
-    float: right;
-}
+
 /* styling ends for my work section*/
 /*contact section styling*/
 
